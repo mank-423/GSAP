@@ -4,7 +4,7 @@ window.addEventListener("wheel", function(e){
         gsap.to("#marque", {
             transform: "translateX(-200%)",
             ease: "none",
-            duration: 2,
+            duration: 3.5,
             repeat: -1,
         })
 
@@ -16,7 +16,7 @@ window.addEventListener("wheel", function(e){
         gsap.to("#marque", {
             transform: "translateX(0%)",
             ease: "none",
-            duration: 2,
+            duration: 3.5,
             repeat: -1,
         })
 
