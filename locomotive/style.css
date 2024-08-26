@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    background: url("https://images.unsplash.com/photo-1721626782208-ecfdc6625fc0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(70, 158, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(11, 180, 236);
+}
+
+
+#page2 img{
+    height: 400px;   
+}
